@@ -1,0 +1,74 @@
+,Timestamp,Product_Category,Customer_ID,Customer_Segment,Purchase_History,Competitor_Price,Seasonality,Economic_Indicator,Sentiment,Price,Dynamic_Pricing_Strategy,Revenue,Profitability,Price_Elasticity
+16076,2023-04-23,Clothing,Customer_332,Premium,9,279.86,High,1.6,0.9,313.66,Dynamic Bundling,5764.15,0.27,-0.98
+21608,2023-04-26,Electronics,Customer_332,New,9,520.15,Low,1.96,0.04,388.4,Discounting,7924.43,0.18,-0.56
+3255,2023-04-26,Health & Beauty,Customer_332,Premium,1,47.71,Medium,0.76,0.82,445.22,Discounting,5738.77,0.43,-0.61
+49131,2023-04-27,Home Appliances,Customer_332,Premium,7,726.47,High,1.38,0.9,275.1,Dynamic Markdowns,5219.65,0.44,-0.51
+18522,2023-05-06,Home Appliances,Customer_332,Regular,5,784.81,Medium,1.66,0.3,866.25,Personalized Pricing,7391.18,0.27,-1.86
+2424,2023-05-10,Health & Beauty,Customer_332,Premium,1,382.94,High,1.99,0.29,407.58,Discounting,7373.15,0.13,-1.57
+18818,2023-05-12,Books,Customer_332,Regular,7,671.57,High,1.52,0.6,397.38,Personalized Pricing,2296.78,0.23,-1.33
+25641,2023-05-30,Electronics,Customer_332,Inactive,4,658.97,High,1.23,0.2,827.12,Dynamic Bundling,366.9,0.49,-1.83
+33081,2023-06-02,Electronics,Customer_332,Regular,9,701.29,High,1.58,0.8,897.68,Discounting,9380.85,0.26,-1.95
+30826,2023-06-06,Health & Beauty,Customer_332,Regular,8,377.53,High,1.34,0.13,105.17,Discounting,3729.14,0.21,-1.37
+47985,2023-06-08,Home Appliances,Customer_332,Regular,2,862.14,Medium,1.89,0.06,96.57,Dynamic Bundling,6533.48,0.42,-0.95
+46141,2023-06-08,Books,Customer_332,Premium,8,471.01,High,1.9,0.85,112.22,Personalized Pricing,3887.43,0.36,-1.64
+8578,2023-06-09,Electronics,Customer_332,Inactive,8,690.89,Medium,1.86,0.43,496.56,Dynamic Bundling,7032.78,0.45,-1.33
+26720,2023-06-16,Clothing,Customer_332,Inactive,9,86.53,High,1.44,0.37,976.44,Personalized Pricing,2818.83,0.4,-0.89
+30608,2023-06-25,Electronics,Customer_332,Regular,2,633.91,Medium,1.75,0.16,883.15,Discounting,2424.88,0.22,-1.27
+9676,2023-06-28,Home Appliances,Customer_332,Premium,9,952.41,Medium,1.1,0.97,604.85,Dynamic Bundling,4286.07,0.3,-1.45
+8521,2023-07-07,Home Appliances,Customer_332,Inactive,4,262.95,Low,1.31,0.71,270.54,Dynamic Markdowns,5524.69,0.34,-1.36
+16242,2023-07-08,Books,Customer_332,Regular,6,789.7,Low,0.56,0.2,779.89,Personalized Pricing,8815.0,0.38,-1.84
+32025,2023-07-15,Clothing,Customer_332,Inactive,7,469.0,Low,1.28,0.29,866.15,Discounting,3110.97,0.13,-0.76
+39720,2023-07-18,Home Appliances,Customer_332,Regular,2,406.36,Low,1.93,0.4,465.33,Personalized Pricing,8302.16,0.4,-0.78
+34064,2023-07-21,Electronics,Customer_332,Inactive,1,969.9,Low,1.64,0.11,845.63,Dynamic Markdowns,3903.05,0.31,-0.57
+36533,2023-07-29,Electronics,Customer_332,Premium,9,695.19,Low,0.79,0.57,526.79,Dynamic Markdowns,8220.97,0.34,-1.7
+13542,2023-07-30,Books,Customer_332,Premium,7,351.58,Low,1.87,0.95,309.65,Discounting,6356.9,0.22,-0.77
+3601,2023-08-02,Books,Customer_332,Inactive,8,883.83,Medium,1.13,0.66,71.88,Dynamic Bundling,1580.83,0.33,-1.25
+16624,2023-08-04,Health & Beauty,Customer_332,New,1,168.32,Low,0.6,0.41,821.0,Dynamic Bundling,5097.58,0.49,-0.69
+34473,2023-08-26,Electronics,Customer_332,Inactive,10,351.75,Medium,1.51,0.72,429.3,Discounting,9816.02,0.33,-0.66
+1727,2023-09-01,Clothing,Customer_332,Inactive,5,44.24,High,1.28,0.56,838.21,Dynamic Bundling,4328.07,0.15,-1.93
+10194,2023-09-01,Health & Beauty,Customer_332,New,6,656.1,Low,0.69,0.89,86.2,Dynamic Bundling,4565.63,0.13,-0.73
+14761,2023-09-03,Clothing,Customer_332,Regular,3,57.81,Low,1.03,0.52,338.65,Dynamic Markdowns,1126.18,0.22,-1.36
+27813,2023-09-03,Health & Beauty,Customer_332,Inactive,8,536.26,Medium,0.52,0.28,109.92,Discounting,5447.71,0.47,-1.18
+15600,2023-09-16,Clothing,Customer_332,Premium,1,737.12,Medium,1.33,0.47,180.2,Dynamic Markdowns,2245.09,0.12,-0.97
+34077,2023-09-19,Home Appliances,Customer_332,Premium,2,571.08,Medium,1.24,0.81,677.78,Discounting,4283.16,0.22,-1.84
+6788,2023-09-20,Health & Beauty,Customer_332,Inactive,1,427.01,High,1.17,0.25,192.74,Discounting,8569.23,0.12,-1.39
+4859,2023-10-12,Health & Beauty,Customer_332,Premium,6,386.37,Low,1.76,0.48,270.57,Dynamic Bundling,3315.49,0.38,-1.1
+16601,2023-10-13,Clothing,Customer_332,Inactive,7,101.34,High,1.47,0.95,585.1,Dynamic Markdowns,8326.76,0.27,-1.41
+32503,2023-10-18,Books,Customer_332,New,2,245.57,High,1.04,0.22,978.32,Discounting,467.56,0.24,-1.5
+17697,2023-10-26,Home Appliances,Customer_332,Regular,6,722.62,High,0.93,0.99,930.17,Personalized Pricing,7404.6,0.14,-1.51
+1942,2023-10-27,Books,Customer_332,New,3,606.75,High,1.84,0.29,940.36,Dynamic Bundling,5850.51,0.19,-1.09
+22663,2023-11-05,Electronics,Customer_332,Premium,4,729.67,High,1.61,0.93,558.64,Dynamic Markdowns,541.99,0.23,-1.72
+11291,2023-11-07,Home Appliances,Customer_332,New,7,203.55,Medium,1.15,0.25,889.08,Dynamic Bundling,8024.29,0.25,-1.06
+3356,2023-11-09,Health & Beauty,Customer_332,Regular,6,636.91,High,1.67,0.75,283.89,Dynamic Markdowns,457.56,0.32,-1.7
+30584,2023-11-20,Health & Beauty,Customer_332,Regular,1,413.19,Low,0.89,0.82,119.9,Dynamic Markdowns,7820.57,0.29,-1.54
+4556,2023-11-23,Clothing,Customer_332,Inactive,3,311.74,Medium,1.62,0.88,654.43,Dynamic Markdowns,1419.1,0.26,-1.96
+49349,2023-11-27,Home Appliances,Customer_332,Inactive,10,255.52,Medium,2.0,0.05,301.16,Dynamic Markdowns,1051.07,0.21,-1.74
+29430,2023-12-01,Clothing,Customer_332,Inactive,1,477.07,High,1.34,0.06,179.29,Discounting,457.7,0.12,-1.44
+13758,2023-12-07,Clothing,Customer_332,Inactive,5,496.74,High,1.57,0.63,865.72,Personalized Pricing,9133.34,0.39,-1.1
+47347,2023-12-07,Books,Customer_332,Inactive,5,398.38,Low,1.55,0.85,522.92,Personalized Pricing,9720.13,0.21,-0.53
+17137,2023-12-08,Electronics,Customer_332,Premium,10,847.41,High,1.33,0.09,634.03,Dynamic Markdowns,5084.57,0.45,-1.43
+19653,2023-12-13,Health & Beauty,Customer_332,New,3,326.44,Medium,1.02,0.21,820.6,Personalized Pricing,2194.38,0.23,-0.6
+20698,2023-12-16,Home Appliances,Customer_332,Inactive,10,163.12,Medium,1.81,0.94,221.68,Personalized Pricing,7077.42,0.34,-1.28
+46030,2023-12-16,Electronics,Customer_332,Inactive,3,910.2,Low,1.06,0.37,273.72,Dynamic Bundling,8270.24,0.31,-1.98
+24879,2023-12-17,Electronics,Customer_332,Premium,3,226.24,Low,1.88,0.37,852.54,Dynamic Bundling,9468.76,0.19,-0.55
+26018,2023-12-21,Health & Beauty,Customer_332,New,10,503.62,Low,1.29,0.49,811.86,Discounting,346.11,0.41,-0.74
+30267,2023-12-27,Electronics,Customer_332,New,9,646.4,Low,0.87,0.13,22.67,Personalized Pricing,7999.53,0.42,-1.68
+31183,2023-12-27,Home Appliances,Customer_332,New,4,220.24,High,1.46,0.19,269.13,Dynamic Bundling,7115.08,0.21,-0.52
+48815,2023-12-31,Home Appliances,Customer_332,Inactive,6,449.72,Low,1.47,0.12,594.82,Dynamic Markdowns,858.56,0.38,-0.81
+19124,2024-01-10,Books,Customer_332,Inactive,2,315.2,Medium,1.8,0.29,791.39,Dynamic Markdowns,9314.79,0.47,-1.93
+35283,2024-01-11,Clothing,Customer_332,Inactive,7,203.21,High,1.48,0.07,348.44,Personalized Pricing,1760.36,0.34,-1.76
+49213,2024-01-21,Health & Beauty,Customer_332,Inactive,9,357.8,High,0.62,0.71,337.6,Discounting,6147.99,0.35,-0.99
+39823,2024-01-30,Electronics,Customer_332,Regular,8,498.07,High,1.84,0.44,923.48,Discounting,9824.52,0.13,-0.54
+49032,2024-02-02,Clothing,Customer_332,Inactive,9,166.93,Low,1.78,0.01,196.93,Discounting,2891.53,0.26,-0.54
+23024,2024-02-19,Clothing,Customer_332,New,6,257.63,High,1.37,0.43,649.84,Dynamic Markdowns,5440.01,0.13,-1.1
+23275,2024-02-27,Home Appliances,Customer_332,Premium,2,661.14,Medium,1.57,0.18,33.67,Personalized Pricing,5715.2,0.2,-0.56
+40034,2024-02-29,Books,Customer_332,New,1,948.17,Medium,1.15,0.22,872.26,Personalized Pricing,7443.1,0.38,-1.41
+40592,2024-03-29,Books,Customer_332,Inactive,10,931.73,High,1.66,0.57,918.76,Dynamic Bundling,803.52,0.23,-0.93
+24006,2024-04-03,Home Appliances,Customer_332,New,1,760.05,Medium,1.22,0.2,202.83,Dynamic Bundling,8219.16,0.25,-0.94
+967,2024-04-04,Electronics,Customer_332,Premium,10,76.14,Medium,1.67,0.77,449.47,Dynamic Markdowns,8429.48,0.33,-0.61
+2056,2024-04-04,Electronics,Customer_332,Inactive,2,268.76,High,0.56,0.1,44.43,Dynamic Bundling,9146.75,0.34,-0.98
+12382,2024-04-05,Books,Customer_332,Premium,1,842.97,Medium,0.97,0.12,356.41,Personalized Pricing,7034.7,0.2,-1.75
+13307,2024-04-09,Books,Customer_332,Inactive,8,462.69,High,1.92,0.91,537.13,Dynamic Bundling,9007.07,0.35,-0.95
+9370,2024-04-12,Electronics,Customer_332,New,9,485.51,Low,0.87,0.18,235.09,Discounting,7500.54,0.41,-1.13
+22076,2024-04-14,Books,Customer_332,New,2,369.28,Low,0.64,0.66,713.14,Dynamic Markdowns,6239.45,0.19,-0.67
+306,2024-04-18,Electronics,Customer_332,Premium,4,185.8,High,1.41,0.36,308.68,Dynamic Markdowns,8455.74,0.14,-1.96
