@@ -3,8 +3,13 @@ import streamlit as st
 import joblib
 from sklearn.preprocessing import MinMaxScaler
 
-model = joblib.load("randomforest.pkl")
-
+model = joblib.load("regressor.pkl")
+def return_actual_pred(prediction,distance):
+    if 10*distance<prediction:
+        return prediction
+    else:
+        return 10*distance
+    
 @st.cache_data
 def load_data():
     data = pd.read_csv("indian-cities-dataset.csv")
@@ -16,26 +21,15 @@ origin = st.selectbox("Origin", city_data["Origin"].unique())
 valid_destinations = city_data[city_data["Origin"] == origin]["Destination"].unique()
 destination = st.selectbox("Destination", valid_destinations)
 distance = city_data[(city_data["Origin"] == origin) & (city_data["Destination"] == destination)]["Distance"].values
-time = distance / 60
-
-st.write(time)
-st.write(distance)
+time_in_minutes = (distance / 55) * 60
+st.write(f"Estimated Time: {time_in_minutes} minutes")
 
 # Inputs integrated into main screen
 number_of_riders = st.number_input("Number of Riders:", value=90)
 number_of_drivers = st.number_input("Number of Drivers:", value=45)
 number_of_past_rides = st.number_input("Number of Past Rides:", value=13)
 average_ratings = st.number_input("Average Ratings:", value=4.47)
-expected_ride_duration = st.number_input("Expected Ride Duration:", value=90)
-
-# Min-max scaling
-scaler = MinMaxScaler()
-number_of_riders_scaled = scaler.fit_transform([[number_of_riders]])[0][0]
-number_of_drivers_scaled = scaler.transform([[number_of_drivers]])[0][0]
-number_of_past_rides_scaled = scaler.transform([[number_of_past_rides]])[0][0]
-average_ratings_scaled = scaler.transform([[average_ratings]])[0][0]
-expected_ride_duration_scaled = scaler.transform([[expected_ride_duration]])[0][0]
-st.write(number_of_drivers_scaled)
+estimated_ride_duration = st.number_input("Expected Ride Duration:", value=float(time_in_minutes))
 time_of_booking = st.selectbox("Time of Booking:", ["Morning", "Afternoon", "Evening", "Night"])
 if time_of_booking == "Morning":
     time_of_booking_morning = 1
@@ -78,16 +72,16 @@ elif location_category == "Rural":
 
 vehicle_type_premium = st.selectbox("Vehicle Type (Premium):", [0, 1])
 
-# Make prediction when the user clicks a button
 if st.button("Predict"):
-    input_data = [[number_of_riders_scaled, number_of_drivers_scaled, number_of_past_rides_scaled, average_ratings_scaled,
-                   expected_ride_duration_scaled, time_of_booking_evening, time_of_booking_morning,
+    input_data = [[number_of_riders, number_of_drivers, number_of_past_rides, average_ratings,
+                   estimated_ride_duration, time_of_booking_evening, time_of_booking_morning,
                    time_of_booking_night, customer_loyalty_status_regular, customer_loyalty_status_silver,
                    location_category_suburban, location_category_urban, time_of_booking_evening,
                    time_of_booking_morning, time_of_booking_night, vehicle_type_premium]]
-
-    # Predict using the model
+    per_km=10
     prediction = model.predict(input_data)
-    
-    # Display prediction
-    st.write(f"Prediction: {prediction}")
+    prediction=return_actual_pred(prediction,distance)
+    st.write(prediction)
+    rt=number_of_riders/number_of_drivers
+    adjusted_prediction = prediction * rt
+    st.write(f"Adjusted Prediction: {adjusted_prediction}")

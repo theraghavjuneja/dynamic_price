@@ -1,8 +1,11 @@
 import pandas as pd
 import streamlit as st
 import joblib
-
+from dotenv import load_dotenv
 model = joblib.load("randomforest.pkl")
+load_dotenv()
+import os
+api_key=os.getenv("OPEN_WEATHER_API_KEY")
 
 @st.cache_data
 def load_data():
@@ -10,7 +13,7 @@ def load_data():
     return data
 
 city_data = load_data()
-
+st.write(api_key)
 st.title("City Distance Calculator")
 
 origin = st.selectbox("Origin", city_data["Origin"].unique())
